@@ -1,9 +1,9 @@
-.banner__content {
+.banner-content {
   text-align: center;
   margin-top: 129px;
   z-index: 2;
 }
-.banner__title {
+.banner-title {
   font-weight: 600;
   font-size: 64px;
   line-height: 75px;
@@ -11,7 +11,7 @@
   color: rgba(255, 255, 255, 1);
   z-index: 2;
 }
-.banner__discription {
+.banner-discription {
   margin-top: 31px;
   line-height: 28px;
   font-size: 24px;
@@ -19,7 +19,7 @@
   color: rgba(255, 255, 255, 1);
   font-family: "Raleway", serif;
 }
-.banner__link {
+.banner-link {
   background-color: rgba(255, 67, 67, 1);
   width: 369px;
   text-align: center;
@@ -30,14 +30,14 @@
   -webkit-transition: 0.6s;
 }
 
-.banner__link a{
+.banner-link a{
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
 }
 
-.banner__link:hover{
+.banner-link:hover{
   background-color: #890808;
   box-shadow: inset 0 0 12px 6px rgba(21, 21, 21, 1);
   transition: 0.4s;
