@@ -1,0 +1,33 @@
+.features {
+  padding: 116px 0 116px;
+}
+
+.features-content {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 29px;
+  grid-row-gap: 89px;
+  grid-template-columns: repeat(auto-fill, 370px);
+  grid-template-rows: repeat(2,);
+  // grid-template-areas: ;
+
+}
+
+.card-grid {
+  text-align: center;
+  margin: 0 20px;
+
+  .about-card__title {
+    font-weight: 600;
+    color: rgba(45, 48, 51, 1);
+    margin-top: 29px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  .about-card_subtitle {
+    color: rgba(108, 114, 121, 1);
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
