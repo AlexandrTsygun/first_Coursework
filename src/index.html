@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./scss/index.scss">
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
   <title>Document</title>
 </head>
 <body>
@@ -168,7 +168,7 @@
       <div class="content-card">
         <div class="content-card__img"><img src="./img/jason.png" alt="#"></div>
         <h2 class="content-card__author">ruth woods</h2>
-        <div class="content-card__subtitle">founder, ceo</div>
+        <div class="content-card__subtitle"><p>founder, ceo</p></div>
         <div class="content-card__description"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
         <nav class="content-card__icon__list">
           <ul>
@@ -181,7 +181,7 @@
       <div class="content-card">
         <div class="content-card__img"><img src="./img/denzel.png" alt="#"></div>
         <h2 class="content-card__author">timothy reed</h2>
-        <div class="content-card__subtitle">co-founder, developer</div>
+        <div class="content-card__subtitle"><p>co-founder, developer</p></div>
         <div class="content-card__description"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
         <nav class="content-card__icon__list">
           <ul>
@@ -194,7 +194,7 @@
       <div class="content-card">
         <div class="content-card__img"><img src="./img/liam.png" alt="#"></div>
         <h2 class="content-card__author">Vicktoria Vladez</h2>
-        <div class="content-card__subtitle">ui designer</div>
+        <div class="content-card__subtitle"><p>ui designer</p></div>
         <div class="content-card__description"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
         <nav class="content-card__icon__list">
           <ul>
@@ -207,7 +207,7 @@
       <div class="content-card">
         <div class="content-card__img"><img src="./img/mark-u.png" alt="#"></div>
         <h2 class="content-card__author">Beverly Little</h2>
-        <div class="content-card__subtitle">data scientist</div>
+        <div class="content-card__subtitle"><p>data scientist</p></div>
         <div class="content-card__description"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p></div>
         <nav class="content-card__icon__list">
           <ul>
@@ -223,26 +223,29 @@
   </div>
 </section>
 
-<section class="testimolials">
-  <div class="wrapper">
-    <div class="slider">
-      <div class="slider__item">
-        <div class="slider__item">
-          <img src="./img/loft1.jpg" alt="#">
+<section class="testimonials">
+  <div class="slider-box">
+    <div class="swiper-container">
+      <!-- <div class="swiper-wrapper"> -->
+
+        <div class="swiper-slide">
+          <img class="swiper-img" src="./img/loft1.jpg" alt="#">
         </div>
-        <div class="slider__item">
-          <img src="./img/loft4.jpg" alt="#">
+        <div class="swiper-slide">
+          <img class="swiper-img" src="./img/loft2.jpg" alt="#">
         </div>
-        <div class="slider__item">
-          <img src="./img/loft3.jpg" alt="#">
+        <div class="swiper-slide">
+          <img class="swiper-img" src="./img/loft3.jpg" alt="#">
         </div>
-        <div class="slider__item">
-          <img src="./img/loft8.jpg" alt="#">
-        </div>
-        <div class="slider__item">
-          <img src="./img/loft6.jpg" alt="#">
-        </div>
+        ...
       </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="slide-content">
+    <h2 class="slide-title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
+    <p class="slide-subtitle">Susan Sims, Interaction Designer at XYZ</p>
     </div>
   </div>
 </section>
@@ -286,8 +289,9 @@
 
   </div>
 </footer>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script type="module" src="js/slick.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
+  <!-- <script type="module" src="js/slick.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="module" src="./js/app.js"></script>
 </body>
 </html>

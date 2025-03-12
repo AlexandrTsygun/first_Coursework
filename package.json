@@ -19,11 +19,12 @@
   "homepage": "https://github.com/AlexandrTsygun/first_Coursework#readme",
   "dependencies": {
     "concat": "^1.0.3",
-    "font-awesome": "^4.7.0",
     "jquery": "^3.7.1",
     "scss": "^0.2.4"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "font-awesome": "^4.7.0",
     "parcel": "^2.13.3",
     "sass": "^1.85.1"
   }

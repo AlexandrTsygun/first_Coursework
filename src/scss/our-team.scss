@@ -7,6 +7,13 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1160px) {
+  .content-card {
+    padding-top: 20px;
+  }
+}
+
 .content-card {
   width: 270px;
   margin: 0 5px;
@@ -29,7 +36,7 @@
   .content-card__subtitle {
     margin-top: 5px;
     font-weight: 400;
-    color: $_red_button_normal;
+    color: rgba(255, 67, 67, 1);
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
