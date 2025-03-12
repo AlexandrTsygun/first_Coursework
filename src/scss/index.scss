@@ -1,6 +1,6 @@
-@import '../scss/mixins';
-@import '../scss/cdn';
-@import '../scss/variables';
+@use '../scss/mixins' as m;
+@use '../scss/cdn' as c;
+@use '../scss/variables' as v;
 @import '../scss/header.scss';
 @import '../scss/banner.scss';
 @import '../scss/features.scss';
