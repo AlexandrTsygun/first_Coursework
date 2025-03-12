@@ -1,0 +1,31 @@
+{
+  "name": "first_coursework",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000f\u0000i\u0000r\u0000s\u0000t\u0000_\u0000C\u0000o\u0000u\u0000r\u0000s\u0000e\u0000w\u0000o\u0000r\u0000k\u0000\r\u0000 \u0000",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrTsygun/first_Coursework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrTsygun/first_Coursework/issues"
+  },
+  "homepage": "https://github.com/AlexandrTsygun/first_Coursework#readme",
+  "dependencies": {
+    "concat": "^1.0.3",
+    "jquery": "^3.7.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "font-awesome": "^4.7.0",
+    "parcel": "^2.13.3",
+    "sass": "^1.85.1"
+  }
+}
